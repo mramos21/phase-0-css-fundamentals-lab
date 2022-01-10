@@ -3,3 +3,47 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* centers the header */ 
+
+header {
+  text-align: center;
+}
+
+/* centers the image */
+
+img {
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+}
+
+/* adds padding to nav links */
+
+nav {
+  padding: 10px;
+}
+
+/* centers image caption and centers it */
+
+figcaption {
+  text-align: center;
+}
+
+/* centers the text in "featured-property" */
+
+section#featured-property {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+/* makes detail section horizontal, adds color , and changes width */
+
+div {
+  float:left;
+  text-align: center;
+  background-color: red;
+  width: 25%;
+}
